@@ -1,2 +1,5 @@
 <Solution>
+  <Folder Name="/src/">
+    <Project Path="src/OctopusDeploy.DemoApi/OctopusDeploy.DemoApi.csproj" />
+  </Folder>
 </Solution>
