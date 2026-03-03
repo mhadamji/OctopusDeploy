@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: octopus-demo-api
+    runtime: dotnet
+    buildCommand: dotnet publish src/OctopusDeploy.DemoApi/OctopusDeploy.DemoApi.csproj -c Release -o out
+    startCommand: dotnet out/OctopusDeploy.DemoApi.dll
+    plan: free
